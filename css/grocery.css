@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: Poppins;
+}
+/* navbar */
+.navbar{
+    background-color: rgb(180, 174, 115) !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: white;
+}
+.grocery-img{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+}
+
+body {
+    background-color: rgb(235, 223, 207, 50%);
+}
+
+.textoLogo {
+    font-size: 30px;
+}
+
+@media (max-width: 768px){
+    .textoGrocery {
+    font-size: 2rem;
+    color: chocolate;
+        }
+}

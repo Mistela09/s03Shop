@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: Poppins;
+}
+#errorPassword, #errorName, #errorPhone {
+    display: none;
+    color: crimson;
+}
+.error{
+    color: crimson;
+}
+.valid{
+    display: none;
+
+}
+.invalid{
+    display: block;
+
+}
+.inputErr, select, textarea{
+    color: #ff0000;
+}
+textarea:focus, .inputErr:focus {
+    color: #ff0000;
+}
+
+.inputVal, select, textarea{
+    border-color: #05c535;
+}
+textarea:focus, .inputVal:focus {
+    border-color: #05c535;
+} 

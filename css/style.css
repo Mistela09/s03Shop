@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: Poppins;
+}
+
+#imagenSize img {
+height: 500px;
+}
+
+body {
+    background-color: rgb(235, 223, 207, 50%);
+}
+
+.textoLogo {
+    font-size: 30px;
+}
+
+
+
+@media (max-width: 768px){
+    #imagenSize img {
+        height: 200px;
+        }
+}
+
